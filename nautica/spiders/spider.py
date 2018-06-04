@@ -7,10 +7,10 @@ from nautica.items import NauticaItem
 class NauticaSpider(CrawlSpider):
 	name = 'nautica'
 	item_count = 0
-	allowed_domain = ['www.accesorionautico.com']
+	allowed_domain = ['www.example.com']
 
 	start_urls = [
-				'https://www.accesorionautico.com/imnasa-m-5.html?language=es',
+				'https://www.example.com/5.html?language=es',
 				
 	]
 
